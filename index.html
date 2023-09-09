@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Crypto Chart App</title>
+    <link rel="stylesheet" href="style.css">
+    <script type="text/javascript" src="https://s3.tradingview.com/tv.js"></script>
+</head>
+<body>
+    <div class="container">
+        <h1>Simplystic Crypto Viewer </h1>
+        <div class="controls">
+            <select id="coin-select">
+                <!-- Add options for cryptocurrency coins -->
+                <option value="BTC">Bitcoin (BTC)</option>
+                <option value="ETH">Ethereum (ETH)</option>
+                <option value="SOL">Solana (SOL)</option>
+                <option value="XRP">XRipple (XRP)</option>
+                <option value="ADA">Adashit (ADA)</option>
+                <option value="LTC">LTC (LTC)</option>
+                <!-- Add more options as needed -->
+            </select>
+        </div>
+        
+    </div>
+    <div class="container">
+        <div class="chart-container">
+            <div id="tv-chart"></div>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
+
+
+
